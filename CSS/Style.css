@@ -208,6 +208,11 @@ p{
     background-color: #f1f1f1;
     padding: 10px;
     position: relative;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .services_content h3{
     margin-top: 50px;
@@ -317,6 +322,11 @@ p{
 }
 .team_inner{
     text-align: center;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .team_text p{
     font-family: 'Oswald', sans-serif;
@@ -324,19 +334,30 @@ p{
 }
 .team_img{
     position: relative;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .team_img .overly{
     position: absolute;
     height: 100%;
-    width: 80px;
+    width: 0;
     right: 0;
     top: 0;
     background: rgba(0, 0, 0, .6);
     padding-top: 30px;
     opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .team_inner:hover .team_img .overly{
     opacity: 1;
+    width: 80px;
 }
 .team_img .overly a{
     display: block;
@@ -348,6 +369,11 @@ p{
     text-align: center;
     margin: 7px auto;
     color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .team_inner .team_img:hover{
     box-shadow: 0 0 5px rgba(117, 117, 117, .7);
@@ -473,6 +499,11 @@ p{
     padding-bottom: 20px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 .footer_content_links_left a:hover,
 .footer_content_links_right a:hover{
