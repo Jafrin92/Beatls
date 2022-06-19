@@ -1,0 +1,31 @@
+. {
+    position: relative;
+}
+.gallery-img .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 95, 131, .5);
+    box-shadow: 0 0 0 10px rgba(129, 130, 135, .5) inset;
+    -webkit-box-shadow: 0 0 0 10px rgba(129, 130, 135, .5) inset;
+    opacity: 0;
+}
+.gallery-img .overlay i{
+  
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid;
+        display: inline-block;
+        margin: 0 3px;
+    
+}
+.gallery-img:hover .overlay{
+    opacity: 1;
+}

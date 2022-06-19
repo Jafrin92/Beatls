@@ -120,7 +120,7 @@ p{
 .banner_items{
     height: 400px;
     background-size: cover !important;
-    mask-position: center !important;
+    background-position: center !important;
     position: relative;
     z-index: 1;
 }
